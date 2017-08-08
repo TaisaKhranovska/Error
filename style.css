@@ -6,6 +6,9 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block;
 }
+html, body {
+	height: 100%;
+}
 body {
 	font: 12px/18px Arial, sans-serif;
 	width: 100%;
@@ -45,6 +48,10 @@ body {
 	background-image: url("img/bg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	position: relative;
 }
 
 
